@@ -549,4 +549,5 @@ fs.writeFile("./Logs.json/freaind.json", JSON.stringify(freainds), (err) => { if
  fs.writeFile("./Logs.json/prefix.json", JSON.stringify(prefixes), (err) => { if (err) console.error(err) });
 });
 
-client.login(TOKEN);
+//client.login(TOKEN);
+client.login(process.env.BOT_TOKEN);
