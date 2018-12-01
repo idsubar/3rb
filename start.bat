@@ -1,0 +1,2 @@
+node musicbot.js
+PAUSE
