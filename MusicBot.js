@@ -470,17 +470,7 @@ function play(guild, song,user) {
 	    serverQueue.textChannel.send(`Now playing ${NAME} \`${getDur(song.duration)}\` Requested By **${songName}**`)
 		 });
 };
-
-client.on('message', message => {
-	if (message.content.startsWith("Np"))  { 
-		message.author.send(`https://3rb.be`).then(m => {
-		message.channel.send("**تم حفظ المقطع 👍**");
-}).catch(r => message.channel.send("**لايمكنني إرسال الرسائل اليك، لديك إعدادات الخصوصية**"));
-  };
-});
-
 	
-
 client.on(`message`,async msg => {
 	
 if (!prefixes[msg.guild.id]) prefixes[msg.guild.id] = { prefix: PREFIX, };
