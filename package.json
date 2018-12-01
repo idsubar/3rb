@@ -9,7 +9,7 @@
     "ffmpeg": "^0.0.4",
     "ffmpeg-binaries": "^4.0.0",
     "get-youtube-id": "^1.0.0",
-    "common-tags": "^1.8.0",
+    "moment-hijri": "^2.1.1",
     "gif-search": "^2.0.1",
     "google-translate-api": "^2.3.0",
     "math-expression-evaluator": "^1.2.17",
